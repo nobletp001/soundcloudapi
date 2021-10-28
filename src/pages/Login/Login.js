@@ -5,11 +5,12 @@ export default function Login() {
   <div className="wrapper">
   <div className="form">
     <div className="title">
-      Login  InTo Your SoundClound Account
+      Login  To Your SoundClound Account
     </div>
     <form  >
      
       <div className="input_wrap">
+        <span className="error_msg">Incorrect username or password. Please try again</span>
         <input type="submit" id="login_btn" className="btn enabled" value="Click Here To Login"  />
       </div>
     </form>
